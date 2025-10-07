@@ -1,0 +1,45 @@
+/* Style guide for the shopping.html assignment. To work alongside the
+bootstrap framework. 2025-08-06 EJS */
+
+li {
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(134, 216, 219);
+}
+
+.page-header {
+  color: blue;
+  text-align: center;
+  border-bottom: 5px solid lightslategray;
+}
+
+h3 {
+  color: purple;
+}
+
+.figcaption {
+  color: black;
+  font-weight: bold;
+  font-family: bradley Hand, cursive;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.label {
+  font-style: bold;
+}
+
+/* EJS: I learned how to do this 'zoom on hover' code at this site:
+https://w3bits.com/css-image-hover-zoom/ */
+
+.hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.5);
+}
